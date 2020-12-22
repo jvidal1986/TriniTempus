@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+body{
+    background-color:	#E7E5DF;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-bottom: 70px;
+}
+
+header{
+  font-family: 'Acme', sans-serif;
+  background-color: #E7E5DF;
+  font-size: 40px;
+  width: 100%;
+  color: black;
+  padding: 0px;
+}
+
+#imagenes{
+  position: relative;
+  width: 260px;
+  height: 260px;
+  margin: 15px;
+}
+
+#imagenServicios{ /*MANDAR */
+  position: relative;
+  float: left;
+  margin-left: 125px;
+  margin-top: 60px;
+  width: 260px;
+  height: 260px;
+}
+
+#parrafoServicios{  /*MANDAR */
+  text-align: left;
+  margin-top: 60px;
+}
+
+#parrafoServicios h1{ /*MANDAR */
+  text-align: center;
+  margin-top: 60px;
+}
+
+#buscador{
+   float: right;
+   padding: 10px;
+}
+
+#login{
+   float: right;
+}
+
+#logo img{
+  width: 80px;
+  height: 60px;
+   float: left;
+}
+
+#contenedorPrincipal{
+  margin: auto;
+  background-color: #323839;
+  width: 1200px;
+  height: 550px;
+  padding: 20px;
+}
+
+legend{
+  text-align: right;
+  font-size: 35px;
+  font-family: 'Permanent Marker', cursive;
+  color: #FFD700;
+  margin-left: 290px;
+}
+#contenedorSecundario{
+    border-radius: 20px;
+  margin: auto;
+  background-color: white;
+  width: 800px;
+  height: 450px;
+  padding: 20px;
+}
+footer{
+  font-family: 'Secular One', sans-serif;
+  background-color: #ff8c03;
+  color:  #ffffff;
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:30px;
+  width:100%;
+  padding:10px;
+  padding-top: 15px;
+  float: left;
+}
+
+footer img {
+  height: 35px;
+  width: 35px;
+  float: right;
+  padding: 10px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+  padding-top: 0px;
+}
+.container{
+  border-radius: 15px;
+  margin: auto;
+  background-color: #44BBA4;
+  width: 800px;
+  height: 400px;
+  padding: 20px;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul.slider{
+  position: relative;
+  width: 800px;
+  height: 300px;
+}
+
+ul.slider li {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+    background:white;
+}
+
+ul.slider li img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+ul.slider li:first-child {
+    opacity: 1; /*Mostramos el primer <li>*/
+}
+
+ul.slider li:target {
+    opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+}
+
+.menu{
+  text-align: center;
+  margin: 20px;
+}
+
+.menu li{
+  display: inline-block;
+  text-align: center;
+}
+
+.menu li a{
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  background-color: #ffffff;
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  border-radius: 100%;
+  }
+
+  * {
+  padding: 0;
+  margin: 0;
+}
+p {
+  padding: 10px;
+  text-align: center;
+}
+ .barraMenu {
+  width: 35%;
+  margin: auto;
+  overflow:hidden;
+
+
+}
+.barraMenu img {
+ width: 35%;
+ margin: auto;
+ overflow:hidden;
+ padding: -10px;
+ width: 15px;
+ height: 15px;
+}
+#titulo {
+  background: #ff8c03;
+  width: 100%;
+  position: relative;
+
+}
+
+nav {
+  float: left; /* Desplazamos el nav hacia la izquierda */
+}
+nav ul {
+  list-style: none;
+  overflow: hidden; /* Limpiamos errores de float */
+}
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+nav ul li a {
+  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  padding: 20px;
+  color: #ffffff;
+  text-decoration: none;
+}
+nav ul li:hover {
+  background: #44BBA4;
+}
+.contenido {
+  padding-top: 80px;
+}
+
+.contacto_formulario{
+  width: 460px;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #fbfbfb;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#buscador input {
+  background-color: #fbfbfb;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ab4493;
+}
+input{
+  background-color: #fbfbfb;
+  width: 408px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ab4493;
+
+}
+
+
+textarea{
+  background-color: #fbfbfb;
+  width: 405px;
+  height: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ab4493;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  padding-top: 15px;
+}
+
+
+label{
+  display: block;
+  float: center;
+}
+
+
+button{
+  height: 45px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background-color: #44BBA4;
+  border-color: black;
+  border-style: solid;
+  border-radius: 10px;
+  width: 420px;
+  cursor: pointer;
+}
+
+
+button p{
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+}
+
+
+span{
+  color: #ab4493;
+}
+
+h2{
+  font-size: 40px;
+  text-align: letf;
+  padding-bottom: 20px;
+  color: black;
+}
+
+
+h3{
+  font-size: 16px;
+  padding-bottom: 30px;
+  color: #0e0e0e;
+}
+
+
+p{
+  font-size: 14px;
+  color: #0e0e0e;
+}
+
+.formulario input:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}
+
+
+.formulario textarea:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}
+
+
+
+ul.acorh,
+ul.acorh * {
+margin: 0;
+padding: 0;
+border: 0;
+}
+ul.acorh {
+padding: 0;
+list-style: none;
+width: 100%;
+font-size: 18px;
+}
+ul.acorh li {
+list-style: none;
+}
+ul.acorh li a {
+display: block;
+padding: 10px 10px 10px 10px;
+background: #333;
+color: #eee;
+border-bottom: 1px solid #000;
+border-top: 1px solid #666;
+text-decoration: none;
+box-sizing: border-box;
+}
+ul.acorh li ul {
+max-height: 0;
+margin: 3px 0px 0px 0px;
+padding: 0px;
+list-style: none;
+overflow: hidden;
+transition: .3s all ease-in;
+}
+ul.acorh li li a {
+padding: 10px 10px 10px 10px;
+background: #999;
+color: #000;
+font-size: 16px;
+border: 0;
+border-bottom: 1px solid #ccc;
+box-sizing: border-box;
+}
+ul.acorc li li:last-child a {
+border-bottom: 0;
+}
+ul.acorh li:hover ul {
+max-height: 300px;
+transition: .3s all ease-in;
+}
+ul.acorh li a:hover {
+background: #666;
+color: #fff;
+}
+
+@media only screen and  (max-width:800px) {
+  *{
+      padding-top: 0px;
+      margin-top: 0px;
+      font-size:10px;
+  }
+}
